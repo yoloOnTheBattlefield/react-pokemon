@@ -2,4 +2,44 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
 }
+
+
+.fetching{
+  width: 50%;
+  height: 10%;
+  align-items: center;
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  margin: auto;
+  text-align: center;
+}
+
+.App{
+  padding: 0 20px;
+}
+
+.presentation{
+  display: flex;
+}
+
+.pokemon-description{
+  text-align: center;
+}
+
+/*.pokemon-list{
+  width: 200px;
+  list-style: none;
+  border: 1px solid;
+  margin: 0;
+  padding: 0;
+}*/
+
+/*.pokemon-list li {
+  margin: 0;
+  padding: 0;
+}*/
